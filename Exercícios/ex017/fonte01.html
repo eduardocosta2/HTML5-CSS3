@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family:  'Courier New', Courier, monospace;
+        
+        /*
+        Medidas Absolutas
+        cm, mm, in, px, pt, pc
+
+        Medidas Relativas
+        em, ex, rem, vw, vh, %
+        16px geralmente = 1em
+        */
+        font-size: 1em ;
+        font-weight: normal ;  /*Lighter Normal bold bolder*/
+    
+        /* Weight - peso da fonte*/ }
+        h1 {
+            /*Shorthand font
+            - font style -> font weight -> font size -> font family
+            
+            font-family: 'work sans', sans-serif; 
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/
+
+            font: italic bolder 3em 'work sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'work sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, voluptate consequatur laborum ratione odio, accusamus ex soluta ab qui autem, ea quia quod enim velit ipsum quo deserunt quis eveniet?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed totam explicabo magni consequatur itaque, necessitatibus beatae consectetur architecto repellendus officiis hic, et ab facilis praesentium molestiae aliquam qui tenetur voluptate.</p>
+    <h2>Subtitulo do Exercicio</h2>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione atque eos delectus inventore. Distinctio ratione recusandae rerum officia voluptatum hic dolores totam voluptatibus maiores. Debitis iste voluptatum quia illo dolorum.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque quo quia consequuntur architecto nisi reprehenderit, exercitationem error possimus officia recusandae alias perferendis natus fugiat tempore laboriosam minima, iste perspiciatis cumque.</p>
+</body>
+</html>
